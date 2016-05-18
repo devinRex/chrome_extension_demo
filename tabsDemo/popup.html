@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-2.1.4.js"></script>
+    <script src="popup.js"></script>
+    <style>
+        body{
+            width: 500px
+        }
+        button{
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+<h2>tabs</h2>
+<button id="getTabs">获取操作tabs需要的基本信息</button>
+<button id="getCurTabs">获取当前的tab</button>
+<button id="createTab">创建一个tab</button>
+<button id="updateTab">更新一个tab</button>
+<button id="moveTab">移动一个tab</button>
+<button id="copyTab">复制一个tab</button>
+<button id="reloadTab">强制刷新tab</button>
+<button id="removeTab">移除一个tab</button>
+<button id="tabCapture">查看活动标签截图</button>
+<button id="tabScript">注入js代码</button>
+
+<div id="tabs"></div>
+</body>
+</html>

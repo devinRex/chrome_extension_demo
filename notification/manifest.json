@@ -1,0 +1,30 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "创建桌面通知",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "创建桌面通知",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  "browser_action": {
+    "default_icon": "16X16.png",
+    "default_title": "创建桌面通知",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "web_accessible_resources": [
+    "1.jpg"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

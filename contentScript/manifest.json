@@ -1,0 +1,31 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "content script",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "content script",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  "browser_action": {
+    "default_icon": "16X16.png",
+    "default_title": "content script",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches":["*://www.baidu.com/*"],
+      "js":["jquery-2.1.4.js","myscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "every1.jpg"
+  ]
+}

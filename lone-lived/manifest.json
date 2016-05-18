@@ -1,0 +1,39 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "长连接",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "长连接",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  //允许使用eval
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "browser_action": {
+    "default_icon": "16X16.png",
+    "default_title": "长连接"
+//    "default_popup": "popup.html"
+  },
+  "permissions":[
+    "*://test.truckmanager.g7s.chinawayltd.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches":["*://*/*"],
+      "js":["jquery-2.1.4.js","myscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "every1.jpg"
+  ],
+  "background": {
+    "scripts": ["background.js","jquery-2.1.4.js"]
+  }
+}

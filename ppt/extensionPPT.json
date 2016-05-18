@@ -1,0 +1,499 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 76,
+          "y": 224,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"Fredoka One, cursive\">chrome扩展的一些基础知识</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 180,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 192,
+          "y": 257,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Fredoka One\">chrome extension ?</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": true,
+      "active": true,
+      "x": 471,
+      "y": 179
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 24,
+          "y": 261,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Fredoka One\">see some chrome extensions</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 468,
+      "y": 359
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 80,
+          "y": 173,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: left;\"><font face=\"Fredoka One, cursive\">Chrome扩展是一系列文件的集合，这些文件一般包括：</font></div><div style=\"text-align: left;\"><ul><li><font face=\"Fredoka One, cursive\"><span style=\"line-height: normal;\">HTML文件</span><br></font></li><li><font face=\"Fredoka One, cursive\"><span style=\"line-height: normal;\">CSS样式文件</span><br></font></li><li><font face=\"Fredoka One, cursive\"><span style=\"line-height: normal;\">JavaScript脚本文件</span><br></font></li><li><font face=\"Fredoka One, cursive\"><span style=\"line-height: normal;\">图片等静态文件</span><br></font></li><li><span style=\"line-height: normal;\"><font face=\"Fredoka One, cursive\">manifest.json文件</font></span></li></ul></div>",
+          "size": 36,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 466,
+      "y": 545
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 202,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font><font face=\"Fredoka One, cursive\">&nbsp;Chrome扩展更像是一个运行于本地的网站，<br>只是它可以利用Chrome平台提供的丰富的<br>接口，获得更加全面的信息，进行更加复杂<br>的操作。</font><br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 466,
+      "y": 744
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 165,
+          "y": 252,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Fredoka One, cursive\">say hello to manifest</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 3.14,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 767,
+      "y": 194
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 28,
+          "y": 152,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Fredoka One\">Chrome扩展都包含一个Manifest文件——manifest.json，这个文件可以告诉Chrome关于这个扩展的相关信息，它是整个扩展的入口，也是Chrome扩展必不可少的部分。</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 769,
+      "y": 362
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 45,
+          "y": 183,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Fredoka One\">扩展被安装后，Chrome就会读取扩展中的manifest.json文件。这个文件的文件名固定为manifest.json，内容是按照一定格式描述的扩展相关信息，如扩展名称、版本、更新地址、请求的权限、扩展的UI界面入口等等。这样Chrome就可以知道在浏览器中如何呈现这个扩展，以及这个扩展如何同用户进行交互。</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 770,
+      "y": 545
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 142,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Fredoka One\">first chrome extension&nbsp;</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 2115,
+      "y": 174
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 137,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Fredoka One\">chrome extension's UI</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 2700,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 120,
+          "y": 161,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li><span style=\"font-family: 'Fredoka One', cursive; line-height: normal;\">Browser Actions &amp;&amp; Page ActionS</span><br></li><li><span style=\"font-family: 'Fredoka One', cursive; line-height: normal;\">右键菜单</span><br></li><li><span style=\"font-family: 'Fredoka One', cursive; line-height: normal;\">桌面提醒</span><br></li><li><span style=\"font-family: 'Fredoka One', cursive; line-height: normal;\">Omnibox</span><br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 2980,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 104,
+          "y": 235,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\">the way to make a chrome extension</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "x": 3260,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 45,
+          "y": 209,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\">popup.html<br>content scripts<br>backgroud.js(background.html)<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "x": 3540,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 127,
+          "y": 259,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\">what can extensions do?</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "x": 3820,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 324,
+          "y": 157,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">cookies</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">history</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">tabs</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">develop tool</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">plugin</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">......</span><br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "x": 4100,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 115,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\">some way to make a better extension</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 15,
+      "selected": false,
+      "active": false,
+      "x": 4380,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 259,
+          "y": 201,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">cross domain</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">communication</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">data storage</span><br></li><li><span style=\"font-family: 'Fredoka One'; line-height: normal;\">......</span><br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "x": 4660,
+      "y": 740
+    }
+  ],
+  "background": "bg-solid-light",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 192,
+        "y": 257,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 72,
+        "text": "<font face=\"Fredoka One\">chrome extension ?</font><br>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 1,
+    "selected": true,
+    "active": true,
+    "x": 471,
+    "y": 179
+  },
+  "fileName": "extensionPPT",
+  "overviewX": 2420,
+  "overviewY": 459,
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "改变浏览器",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "改变浏览器外观",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  "browser_action": {
+    "default_icon": "16X16.png",
+    "default_title": "改变浏览器外观",
+    "default_popup": "popup.html"
+  }
+}

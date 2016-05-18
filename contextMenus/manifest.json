@@ -1,0 +1,37 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "模拟Momentum",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "模拟Momentum",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+
+  "permissions": [
+    "contextMenus"
+  ],
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "blank.html"
+  },
+
+  //允许使用eval
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "browser_action": {
+    "default_icon": "16X16.png",
+    "default_title": "模拟Momentum",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}

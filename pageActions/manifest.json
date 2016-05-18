@@ -1,0 +1,29 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "pageAction",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "pageAction",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "16X16.png",
+    "default_title": "There's a 'baidu' in the url!",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "declarativeContent",
+    "activeTab"
+  ]
+}

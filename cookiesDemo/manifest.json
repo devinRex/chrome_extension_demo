@@ -1,0 +1,28 @@
+{
+
+
+  //必须的字段
+  "manifest_version": 2,
+  "name": "cookie管理",
+  "version": "1.0",
+
+  //建议提供的字段
+  "description": "cookie管理",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  "browser_action": {
+    "default_icon": "16X16.png",
+    "default_title": "cookie管理",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "cookies",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-2.1.4.js"></script>
+    <script src="popup.js"></script>
+    <style>
+        body{
+            width: 500px
+        }
+        button{
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+<h2>书签</h2>
+<button id="getMarks">获取书签</button>
+<button id="addMarks">添加书签</button>
+<p></p>
+<span>
+    请输入要删除的书签ID：<input type="text" id="delId"/>
+</span>
+
+<button id="delMarks">删除书签</button>
+<div id="bookmarks"></div>
+</body>
+</html>
