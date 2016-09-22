@@ -1,0 +1,34 @@
+{
+    // 必须的字段
+    "manifest_version": 2,
+    "name": "自动填充表单",
+    "version": "1.0",
+
+    // 建议提供的字段
+    "description": "自动填充表单",
+    "icons": {
+        "16": "16x16.png",
+        "48": "48x48.png",
+        "128": "128x128.png"
+    },
+    //允许使用eval
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "browser_action": {
+        "default_icon": "16X16.png",
+        "default_title": "自动填充表单",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches":["*://*/*"],
+            "js":["jquery-2.1.4.js","contentscript.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}

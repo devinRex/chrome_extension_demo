@@ -30,6 +30,9 @@ chrome.extension.onConnect.addListener(function(port) {
 
                     });
                 }
+                port && port.postMessage({data:data,identity:"ajax"}, function(){
+
+                });
                 //console.log(data.data);
             }
 

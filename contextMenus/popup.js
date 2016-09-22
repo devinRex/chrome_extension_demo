@@ -1,0 +1,1 @@
+console.log(window.localStorage.getItem("truckboss4.ifNewStatusGuide"));
